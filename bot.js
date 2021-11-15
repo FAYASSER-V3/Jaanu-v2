@@ -136,7 +136,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('ElsaMowl working! 👰')
+            chalk.green.bold('Jaanu working! 👰')
         );
     });
     
@@ -269,7 +269,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '👰______```ElsaMowl-V2.1```_____👰' +
+                                await conn.sendMessage(conn.user.jid, '👰______```Jaanu```_____👰' +
                                     '\n\n*👰 ' + error + '*\n'
                                     , MessageType.text);
                             }
